@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF9F3;
+    
+}
+
+.upper-part {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.upper-part h3{
+    margin-top: 10px;
+}
+
+.logo-social-media {
+    width: 30%;
+    
+    text-align: center;
+}
+
+.logo-social-media .logo {
+    width: 30%;
+}
+
+.logo-social-media p {
+    font-size: 0.70rem;
+}
+
+.shop-coloumn, .sell-coloumn, .about-coloumn, .help-coloumn{
+    width: 15%;
+
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+.lower-part {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.80rem;
+    height: 20vh;
+}
+
+.lower-part .policy {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+

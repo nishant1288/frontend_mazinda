@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF9F3;
+}
+
+.main-rect-image {
+    overflow: hidden;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+
+.main-rect-image img {
+    width: 100%;
+}
+
+.frame-kit {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.frame {
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.frame-kit .frame .sub-frames {
+    width: 128px;
+    height: 140px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    
+   
+}
+
+.frame-kit .frame .sub-frames img{
+    width: 85%;
+    margin-top: 10px;
+}
+
+.frame-kit h3{
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+
+.frame-kit p{
+    font-size: 10px;
+}
+
+.hand-picked-items-div{
+    width: 90%;
+    margin: auto;
+    position: relative;
+   
+}
+
+.hand-picked-items-div span {
+    font-size: 0.75rem;
+    color: #FE6303;
+    position: absolute;
+    right: 10px;
+   
+    top: 7px;
+}
+
+.hand-picked-items{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.hand-picked-items .sub-itmes {
+    background-color: white;
+    width: 180px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /8%);
+    margin-bottom: 15px;
+}
+
+.hand-picked-items .sub-itmes img {
+  
+    width: 85%;
+    margin-top: 5px;
+}
+
+.hand-picked-items .sub-itmes .circle-icon, .wishlist-icon {
+    position: absolute;
+}
+
+.circle-icon {
+    font-size: 25px;
+    color: #E9E9E9;
+    font-weight: lighter;
+    right: 10px;
+    top: 5px;
+}
+
+.wishlist-icon {
+    font-size: 12px;
+    right: 17px;
+    top: 12px;
+}
+
+.sub-itmes p {
+    font-size: 0.60rem;
+    text-align: center;
+    
+}
+
+.sub-itmes b {
+    font-size: 0.75rem;
+    position: absolute;
+    left: 12px;
+}
+
+@media only screen and (max-width: 600px)  /*=================>Mobile Design<============*/
+{
+    .main-rect-image {
+        height: 15vh;
+        text-align: center;
+    }
+
+    .main-rect-image img{
+        width: 95%;
+       
+    }
+
+    .frame {
+        height: 75vh;
+    }
+
+    .hand-picked-items-div span{
+        top: 40px;
+    }
+}
